@@ -49,7 +49,7 @@ function Videoplayer() {
             live.map(function (e) {
               return (
                 <div className="live">
-                  <p className="liv"></p>
+                  <p className="liv">{e.live}</p>
                 </div>
               )
             })
