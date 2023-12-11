@@ -1,0 +1,77 @@
+.audio-player{
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+}
+.left-audio{
+    background-color: rgba(0, 0, 0, 0.363);
+    padding: 10px;
+}
+.left-audio>h3{
+    color: red;
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+}
+.left-audio>h5{
+    border: 2px solid rgba(0, 0, 0, 0.342);
+    padding: 10px 20px;
+    width: 80px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.left-audio>h5:hover{
+    background-color: white;
+    color: black;
+}
+.audio-div{
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+    object-fit: fill;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.audio-order{
+    display: flex;
+    overflow-y: scroll;
+    height: 130px;
+    width: 50%;
+    gap: 5%;
+    padding: 10px 10px 10px 10px;
+    scroll-behavior: smooth;
+}
+.audio-order::-webkit-scrollbar{
+    display: none;
+}
+
+.audio-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+.mainad{
+    width: 200px;
+    margin-left: 40px;
+}
+.immm{
+    margin-left: 40px;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1400px){
+    .audio-order{
+        width: 800px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 400px){
+    .mainad{
+        margin-left: 5px;
+    }
+    .immm{
+        margin-left: 5px;
+    }
+}
