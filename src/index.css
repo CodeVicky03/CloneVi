@@ -487,7 +487,9 @@ input::-webkit-outer-spin-button{
     width: 165px;
     border-radius: 6px;
   }
-
+  .video-player{
+    height: 46vw;
+  }
   .wifi {
     margin-left: 80px;
   }
@@ -1037,7 +1039,7 @@ p {
 
 .video-player {
   width: 100%;
-  height: 46vw;
+  height: 58vw;
   object-fit: cover;
   position: relative;
 }
